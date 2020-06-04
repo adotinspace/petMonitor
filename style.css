@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    background-color:#b0e0e6;
+    font-family: "Raleway", "Helvetica", sans-serif;
+}
+
+div#cabecalho {
+    box-shadow: 1px 2px 1.5px 0.5px #000;
+    padding: 5px;
+    margin: 5px;
+}
+
+div#cabecalho h1 {
+    font-family: 'Pacifico';
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+div#cabecalho h3 {
+    text-align: center;
+}
+
+div#cabecalho-pata img {
+    transform: rotate(-20deg);
+    transform: matrix(-0.9,0.6,0.6,0.9,0,-100);
+    display: block;
+    margin:auto;
+    margin-left:350px !important;
+    background-color: #b0e0e6;
+    width: 7%;
+    border:3px solid #fff;
+    padding:2px;
+}
+
+form {
+    display: inline;
+}
+
+div#menu input[name=buscar] {
+    text-align: center;
+    margin-left: 500px;
+    padding:5px;
+    width: 18%;
+    display:inline;
+}
+
+div#menu input[type=text] {
+    text-align: center;
+    margin:10px;
+    height:35px;
+    margin-left:30px;
+    padding:5px;
+    width: 30%;
+    display:inline;
+}
+
+div#menu {
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+    margin:10px;
+    height:35px;
+    margin-left:300px;
+    padding:5px;
+    width: 30%;
+    display:inline;
+}
